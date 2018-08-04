@@ -1,0 +1,24 @@
+.slider-wrap{
+  overflow-x: hidden;
+}
+.slides{
+  touch-action: pan-y;
+}
+.slide{
+  float: left;
+}
+
+/* pegination - default style */
+ul.slide-peg{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+ul.slide-peg > li{
+  padding: 15px;
+  margin: 0;
+  display: inline-block;
+  font-size: 20px;
+  opacity: 0.4;
+}
